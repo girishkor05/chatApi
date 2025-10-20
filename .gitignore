@@ -76,9 +76,9 @@ yarn-error.log
 coverage/
 
 # Static
-static/
-*.html
-*.css
-*.svg
-*.js
+# static/
+# *.html
+# *.css
+# *.svg
+# *.js
 >>>>>>> e5dc9bf (first commit)
