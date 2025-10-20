@@ -1,1 +1,84 @@
+<<<<<<< HEAD
 .DS_Store
+=======
+.DS_Store
+
+# VS Code
+.vscode/
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Windows image file caches
+ehthumbs.db
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Maven
+/target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+
+# Gradle (if used)
+.gradle/
+build/
+
+# IntelliJ
+.idea/
+*.iml
+*.iws
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# NetBeans
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+
+# Logs
+.log
+
+# Temporary files
+*.tmp
+*.swp
+~$*
+
+# Node (for frontend assets in static/if any)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Environment files
+.env
+
+# Coverage
+coverage/
+
+# Static
+static/
+*.html
+*.css
+*.svg
+*.js
+>>>>>>> e5dc9bf (first commit)
