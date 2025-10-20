@@ -1,12 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0"
-<<<<<<< HEAD
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 
-                             http://maven.apache.org/xsd/maven-4.0.0.xsd">
-=======
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
->>>>>>> e5dc9bf (first commit)
 
     <modelVersion>4.0.0</modelVersion>
 
@@ -20,37 +15,42 @@
 
     <properties>
         <java.version>17</java.version>
-<<<<<<< HEAD
-        <spring.boot.version>3.3.2</spring.boot.version>
-=======
         <spring.boot.version>3.3.4</spring.boot.version>
->>>>>>> e5dc9bf (first commit)
     </properties>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-<<<<<<< HEAD
-        <version>3.3.2</version>
-        <relativePath/> <!-- lookup parent from repository -->
-    </parent>
-
-    <dependencies>
-        <!-- Web starter -->
-=======
         <version>3.3.4</version>
         <relativePath /> <!-- lookup parent from repository -->
     </parent>
 
     <dependencies>
-        <!-- Spring Boot Starter Web -->
->>>>>>> e5dc9bf (first commit)
+        <!-- Spring Boot Web -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
-<<<<<<< HEAD
+        <!-- WebSocket support -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-websocket</artifactId>
+        </dependency>
+
+        <!-- MongoDB support (if used) -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-mongodb</artifactId>
+        </dependency>
+
+        <!-- Lombok (optional) -->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <optional>true</optional>
+        </dependency>
+
         <!-- Dev tools (optional) -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -59,31 +59,7 @@
             <optional>true</optional>
         </dependency>
 
-        <!-- Testing (optional) -->
-=======
-        <!-- Spring Boot Starter WebSocket -->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-websocket</artifactId>
-        </dependency>
-
-        <!-- Spring Boot Starter for MongoDB -->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-data-mongodb</artifactId>
-        </dependency>
-
-        <!-- messaging handled by spring-websocket/stomp via spring-boot-starter-websocket -->
-
-        <!-- Lombok (for @Data, @Slf4j, etc.) -->
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-            <optional>true</optional>
-        </dependency>
-
-        <!-- Spring Boot Starter Test (optional, for tests) -->
->>>>>>> e5dc9bf (first commit)
+        <!-- Testing -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
@@ -91,10 +67,6 @@
         </dependency>
     </dependencies>
 
-<<<<<<< HEAD
-=======
-
->>>>>>> e5dc9bf (first commit)
     <build>
         <plugins>
             <!-- Spring Boot Maven Plugin -->
